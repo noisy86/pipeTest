@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TransformPipe } from './transform.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TransformPipe
   ],
   imports: [
     BrowserModule,
